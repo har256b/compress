@@ -23,7 +23,7 @@ final class AdapterFactory
         ];
 
         foreach ($adapters as $adapter) {
-            $instance = new $adapter;
+            $instance = new $adapter();
             if ($instance instanceof CompressionAdapterInterface && $instance->isCompressed($file)) {
                 return $instance;
             }

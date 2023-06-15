@@ -20,7 +20,7 @@ class Targz implements CompressionAdapterInterface
 
     public function __construct(ExecutorInterface $executor = null)
     {
-        $this->executor = $executor ?: new Passthru;
+        $this->executor = $executor ?: new Passthru();
     }
 
     /**
