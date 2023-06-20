@@ -1,6 +1,7 @@
-# lib-compression
+# Compress
 
 Library to ease the usage of compression, wrapper around multiple low level compression tools `pigz/zip/tar`
+Simple library for archiving and un-archiving files using several compression utilities
 
 ## Support Compression Types
 Following types are supported currently:
@@ -52,7 +53,7 @@ $ composer coverage
 ```
 
 ## TODO
-1. Add directory support to `Pigz`
-2. Implement Zip adapter
-3. Support for more custom arguments
-4. Support for compression level selection
+1. [ ] Add directory support to `Pigz`
+2. [ ] Implement Zip adapter
+3. [ ] Support for more custom arguments
+4. [ ] Support for compression level selection
